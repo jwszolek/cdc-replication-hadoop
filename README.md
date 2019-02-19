@@ -3,7 +3,7 @@ Keep in sync RDB table with Hive structured store. Added Kafka as a buffer betwe
 
 
 ## Purpose 
-The purpose of this project is to create a solution that gives you the ability to synchronize RDB (MySQL, Oracle, Postgres) tables with Hive equivalents.
+The purpose of this project is to create a solution that gives you the ability to synchronize RDB (MySQL, Oracle, Postgres) tables with Hive equivalents. Synchronization process should be done by using CDC (change data capture) logs. By using this technique we should get almost real-time synchronization between source and destination table.
 
 ## Requirements
 * RDB changes are sent over CDC logs
