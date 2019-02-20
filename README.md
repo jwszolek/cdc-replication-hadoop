@@ -14,7 +14,7 @@ The purpose of this project is to create a solution that gives you the ability t
 * Hive 2.3.2 with ACID support
 * Spark 2.3
 * OrcFile format
-* Metastore table for keeping logs about current processes running
+* Metastore table for keeping logs about current processes running. Accessed to it is over AWS API-Gateway. DynamoDB used as a data storage layer.
 * [MySQL Debezium connector to Kafka](https://debezium.io/docs/connectors/mysql/)
 * [Airflow scheduler](https://airflow.apache.org/index.html)
 
@@ -30,7 +30,10 @@ The diagram below shows the architecture concept. There are three main parts pre
 
 ## App
 
-### 
+* Debezium configuration
+* Kafka configuration 
+* 
+
 
 ## Tests
 Tests have been planned and executed on the Google Cloud. The environment was prepared by using  [terraform scripts](https://github.com/jwszolek/hive-cdc-orcfile/tree/master/terraform-gcp).
