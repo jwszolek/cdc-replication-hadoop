@@ -31,6 +31,8 @@ The diagram below shows the architecture concept. There are three main parts pre
 ### 
 
 ## Tests
+Tests have been planned and executed on the Google Cloud. The environment was prepared by using terraform scripts [Github](https://github.com/jwszolek/hive-cdc-orcfile/tree/master/terraform-gcp).
+
 
 
 ## Links
