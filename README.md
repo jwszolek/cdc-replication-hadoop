@@ -1,5 +1,5 @@
 # cdc-replication-hadoop
-Keep in sync RDB table with Hive structured store. Added Kafka as a buffer between those two tables.
+Keep in sync RDB schema (Oracle, MySQL, Postgres) with Hive structured store. Added Kafka as a buffer between those tables.
 
 
 ## Purpose 
