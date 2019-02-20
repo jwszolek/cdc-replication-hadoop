@@ -14,6 +14,7 @@ The purpose of this project is to create a solution that gives you the ability t
 * Hive 2.3.2 with ACID support
 * Spark 2.3
 * OrcFile format
+* MySQL Debezium connector to Kafka (https://debezium.io/docs/connectors/mysql/)
 
 ## Diagram
 
@@ -21,12 +22,15 @@ The diagram below shows the architecture concept. There are three main parts pre
 * Relational database cluster, configured to generate CDC logs. 
 * Logs are sent to the Kafka buffer 
 * Spark streaming job lets to get raw data and push (in a structured way) to the Hive staging table
-* Merge process is done in Hive. To make it work we need to use transaction support in hive
+* Merge process is done in Hive. To make it work we need to use transaction support in hive.
 
 ![cdc logs](img/cdc-logs.png)
 
+## App
 
-#### Tests
+### 
+
+## Tests
 
 
-#### Links
+## Links
