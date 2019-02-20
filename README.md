@@ -14,6 +14,14 @@ The purpose of this project is to create a solution that gives you the ability t
 
 ## Diagram
 
+The diagram below shows the architecture concept. There are three main parts presented below:
+* Relational database cluster, configured to generate CDC logs. 
+* Logs are sent to the Kafka buffer 
+* Spark streaming job lets to get raw data and push (in a structured way) to the Hive staging table
+* Merge process is done in Hive. To make it work we need to use transaction support in hive
+
+![cdc logs](img/cdc-logs.png)
+
 
 #### Tests
 
