@@ -1,5 +1,5 @@
 # cdc-replication-hadoop
-Keep in sync RDB schema (Oracle, MySQL, Postgres) with Hive structured store. Added Kafka as a buffer between those tables.
+Keep in sync RDB schema (Oracle, MySQL, Postgres) with Hive structured store. Added Kafka as a buffer between those tables. CDC (Change Data Capture) is one of the best ways to interconnect an OLTP database system with other systems like Data Warehouse, Caches, Spark or Hadoop.
 
 
 ## Purpose 
