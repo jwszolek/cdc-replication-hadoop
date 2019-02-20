@@ -1,4 +1,4 @@
-# hive-cdc-orcfile
+# cdc-replication-hadoop
 Keep in sync RDB table with Hive structured store. Added Kafka as a buffer between those two tables.
 
 
