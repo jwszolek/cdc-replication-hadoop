@@ -5,7 +5,7 @@ Keep in sync RDB schema (Oracle, MySQL, Postgres) with Hive structured store. Ad
 ## Purpose 
 The purpose of this project is to create a solution that gives you the ability to synchronize RDB (MySQL, Oracle, Postgres) tables with Hive equivalents. Synchronization process should be done by using CDC (change data capture) logs. By using this technique we should get almost real-time synchronization between source and destination table. For the CDC logging purposes, Debezium’s MySQL Connector was used. It can monitor and record all of the row-level changes in the databases on a MySQL server.
 
-*Note: We assume that we don't want to keep history in hive tables. Hive tables should follow RDB.* 
+*Note: We assume that we don't want to keep history in hive tables. Hive tables should constantly follow RDB.* 
 
 
 ## Requirements
