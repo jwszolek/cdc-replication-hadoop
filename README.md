@@ -14,6 +14,7 @@ The purpose of this project is to create a solution that gives you the ability t
 * Hive 2.3.2 with ACID support
 * Spark 2.3
 * OrcFile format
+* Metastore table for keeping logs about current processes running
 * [MySQL Debezium connector to Kafka](https://debezium.io/docs/connectors/mysql/)
 * [Airflow scheduler](https://airflow.apache.org/index.html)
 
