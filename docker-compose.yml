@@ -1,0 +1,6 @@
+version: '3'
+services:
+  airflow:
+    build: ./airflow-container
+    ports:
+     - "8080:8080"

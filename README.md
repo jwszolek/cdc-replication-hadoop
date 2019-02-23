@@ -40,6 +40,13 @@ The diagram below shows the architecture concept. There are three main parts pre
 * Kafka configuration 
 * 
 
+## Howto run locally
+
+* Run `sudo docker-compose up -d` for complete instalation and start services
+* Run `sudo docker-compose build --no-cache` for complete rebuild containers
+
+
+
 
 ## Tests
 Tests have been planned and executed on the Google Cloud. The environment was prepared by using  [terraform scripts](https://github.com/jwszolek/hive-cdc-orcfile/tree/master/terraform-gcp).
